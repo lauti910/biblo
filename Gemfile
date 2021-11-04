@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem 'dotenv-rails'
 gem 'pg', '~> 0.20.0'
-gem 'puma', '~>3.7'
+gem "puma", ">= 4.3.9"
 gem 'rails', '4.2.8'
 gem 'rails-i18n'
 gem 'rest-client', '~> 2.0.2'
@@ -13,6 +13,15 @@ gem 'therubyracer'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'flag-icons-rails'
+gem "addressable", ">= 2.8.0"
+gem "underscore", ">= 1.12.1"
+gem "actionpack", ">= 5.2.4.6"
+gem "json", ">= 2.3.0"
+gem "actionview", ">= 5.2.4.2"
+gem "rake", ">= 12.3.3"
+gem "rack", ">= 2.1.4"
+gem "loofah", ">= 2.3.1"
+gem "nokogiri", ">= 1.11.4"
 
 # js
 gem 'coffee-rails', '~> 4.1.0'
@@ -30,16 +39,16 @@ gem 'pronto'
 gem 'pronto-rubocop', require: false
 
 # OAuth
-gem 'devise'
+gem "devise", ">= 4.7.1"
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
+gem 'omniauth-rails_csrf_protection'
 
 # ISBN library
 gem 'openlibrary', '~> 1.0.0'
 
 #google_maps
-
-gem 'geocoder'
+gem "geocoder", ">= 1.6.1"
 gem 'gmaps4rails'
 
 #State pattern
